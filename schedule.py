@@ -19,4 +19,6 @@ time_range = DateTimeRange(dt, dt + date_End)
 print ("Расписание на месяц: ")
 #список выводится через день (days=2)
 for value in time_range.range(datetime.timedelta(days=2)):
-    print(value.strftime ("%A, %d %B, %Y"))
+#проверка на то, что будут выводиться дни с пн до сб
+    if value.weekday() in range(0,6):
+        print(value.strftime ("%A, %d %B, %Y"))
