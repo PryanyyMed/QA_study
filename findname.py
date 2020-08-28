@@ -32,6 +32,14 @@ for i in max_list:
     if i > max_max:
         max_max = i
 
-#print(max_list)
-print(max_max)
+if max_list == 1:
+    print(group_1)
+if max_list == 2:
+    print(group_2)
+if max_list == 3:
+    print(group_3)
+
+print(max_list)
+print(max_max, max_list[i])
+
 #print(counter_1,counter_2,counter_3)
