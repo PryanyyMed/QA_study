@@ -32,11 +32,11 @@ for i in max_list:
     if i > max_max:
         max_max = i
 
-if max_list == 1:
+if max_list[i] == 1:
     print(group_1)
-if max_list == 2:
+if max_list[i] == 2:
     print(group_2)
-if max_list == 3:
+if max_list[i] == 3:
     print(group_3)
 
 print(max_list)
