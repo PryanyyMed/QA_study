@@ -39,7 +39,7 @@ if max_list[i] == 2:
 if max_list[i] == 3:
     print(group_3)
 
-print(max_list)
-print(max_max, max_list[i])
+#print(max_list)
+#print(max_max, max_list[i])
 
 #print(counter_1,counter_2,counter_3)
