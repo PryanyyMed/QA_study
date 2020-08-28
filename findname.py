@@ -33,11 +33,11 @@ for i in max_list:
         max_max = i
 
 if max_list[i] == 1:
-    print(group_1)
+    print('group_1=',group_1)
 if max_list[i] == 2:
-    print(group_2)
+    print('group_2=',group_2)
 if max_list[i] == 3:
-    print(group_3)
+    print('group_3=',group_3)
 
 #print(max_list)
 #print(max_max, max_list[i])
